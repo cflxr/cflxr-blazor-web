@@ -17,6 +17,7 @@ namespace BlazorApp.Client.Models
         public double market_cap { get; set; }
 
         public CoinData() { }
+
         public CoinData(string name, string image, string symbol, double price, double volume, double priceChange, double marketcap)
         {
             this.name = name;
