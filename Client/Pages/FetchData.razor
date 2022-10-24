@@ -4,10 +4,10 @@
 @using BlazorApp.Client.Components
 @inject HttpClient httpClient
 
-   <div class="top-row px-4">
+@*   <div class="top-row px-4">
            
             <a href="https://www.cflux.nl" target="_blank"> <img src="../O365-Banner-CFLUX_Logo" alt="CFLUX logo" style /></a>
-        </div>
+        </div>*@
 <div class="coin-app">
     <div class="coin-search">
         <h1 class="coin-text">Search a currency</h1>
@@ -27,8 +27,8 @@
     else
     {
         foreach (CoinData coin in filteredResponse)
-        {
-            <CoinInfoTab Name="@coin.name" Price="@coin.current_price" Symbol="@coin.symbol" MarketCap="@coin.market_cap" Volume="@coin.total_volume" PriceChange="@coin.price_change_percentage_24h" Image="@coin.image" />
+        { 
+            <CoinInfoTab Name="@coin.name" Price="@coin.current_price" Symbol="@coin.symbol" MarketCap="@coin.market_cap"  Volume="@coin.total_volume" PriceChange="@coin.price_change_percentage_24h" Image="@coin.image" />
         }
     }
 
