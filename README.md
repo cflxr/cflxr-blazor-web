@@ -1,14 +1,7 @@
-# Blazor Starter Application
+# CFLXR Blazor .NET 6 [Blazor WebAssembly]
 
 This template contains an example .NET 6 [Blazor WebAssembly](https://docs.microsoft.com/aspnet/core/blazor/?view=aspnetcore-6.0#blazor-webassembly) client application, a .NET 6 C# [Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-overview), and a C# class library with shared code.
 
-## Getting Started
-
-1. Create a repository from the [GitHub template](https://docs.github.com/en/enterprise/2.22/user/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) and then clone it locally to your machine.
-
-1. In the **Api** folder, copy `local.settings.example.json` to `local.settings.json`
-
-1. Continue using either Visual Studio or Visual Studio Code.
 
 ### Visual Studio 2022
 
